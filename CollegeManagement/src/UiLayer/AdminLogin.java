@@ -1,6 +1,6 @@
 package UiLayer;
 
-import MiddleLayer.GetOnlyInt;
+import CreationValidator.GetOnlyInt;
 import UiLayer.AdminDashboard.*;
 import UiLayer.StudentDashboard.StudentDashboard;
 import UiLayer.StudentDashboard.StudentInterface;
@@ -84,24 +84,34 @@ public class AdminLogin {
         {
             System.out.println("The password is Wrong");
             System.out.println();
-            choose();
+            if(choose())
+            {
+                adminLogin();
+            }
+            else
+            {
+                WelcomePage welcomePageObj=new WelcomePage();
+                welcomePageObj.welcomePage();
+            }
+
 
         }
     }
-    private void choose()
+    public boolean choose()
     {
         System.out.println("Try Again-------------->1");
         System.out.println("Leave From this Page--->2");
         int ui=GetOnlyInt.onlyInt();
         if(ui==1)
         {
-            adminLogin();
+            return true;
         }
         else if(ui!=2)
         {
             System.out.println("Please Enter Valid Input");
             choose();
         }
+        return false;
     }
 
 }

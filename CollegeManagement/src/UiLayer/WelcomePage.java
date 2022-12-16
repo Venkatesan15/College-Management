@@ -1,6 +1,6 @@
 package UiLayer;
 
-import MiddleLayer.GetOnlyInt;
+import CreationValidator.GetOnlyInt;
 
 public class WelcomePage {
     public  void welcomePage()

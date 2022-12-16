@@ -1,7 +1,7 @@
 package UiLayer;
 
 import MiddleLayer.AddOrGetStudentsML;
-import MiddleLayer.GetOnlyInt;
+import CreationValidator.GetOnlyInt;
 import UiLayer.StudentDashboard.*;
 
 import java.util.Scanner;
@@ -59,6 +59,11 @@ public class StudentLogin {
             if(choose())
             {
                 studentLogin();
+            }
+            else
+            {
+                WelcomePage welcomePageObj=new WelcomePage();
+                welcomePageObj.welcomePage();
             }
 
         }

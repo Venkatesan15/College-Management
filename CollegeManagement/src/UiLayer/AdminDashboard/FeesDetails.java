@@ -1,7 +1,7 @@
 package UiLayer.AdminDashboard;
 
 import MiddleLayer.FeesDetailsML;
-import MiddleLayer.GetOnlyInt;
+import CreationValidator.GetOnlyInt;
 import MiddleLayer.GetFeesDetail;
 import CreationValidator.AddStuEnterDetails;
 

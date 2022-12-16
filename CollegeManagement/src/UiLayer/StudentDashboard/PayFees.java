@@ -2,7 +2,7 @@ package UiLayer.StudentDashboard;
 
 import MiddleLayer.FeesDetailsML;
 import MiddleLayer.GetFeesDetail;
-import MiddleLayer.GetOnlyInt;
+import CreationValidator.GetOnlyInt;
 
 import java.sql.ResultSet;
 

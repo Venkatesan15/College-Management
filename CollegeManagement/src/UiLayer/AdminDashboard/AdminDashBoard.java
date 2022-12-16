@@ -2,7 +2,7 @@ package UiLayer.AdminDashboard;
 
 import CreationValidator.AddStuEnterDetails;
 import MiddleLayer.AddOrGetStudentsML;
-import MiddleLayer.GetOnlyInt;
+import CreationValidator.GetOnlyInt;
 import MiddleLayer.GetQueries;
 import MiddleLayer.TimeTableML;
 import UiLayer.Student;

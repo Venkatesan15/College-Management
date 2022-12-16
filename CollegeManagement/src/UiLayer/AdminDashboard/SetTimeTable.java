@@ -1,6 +1,6 @@
 package UiLayer.AdminDashboard;
 
-import MiddleLayer.GetOnlyInt;
+import CreationValidator.GetOnlyInt;
 import MiddleLayer.TimeTableML;
 
 import java.util.Scanner;

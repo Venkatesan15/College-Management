@@ -1,7 +1,7 @@
 package UiLayer.StudentDashboard;
 
 import MiddleLayer.AddOrGetStudentsML;
-import MiddleLayer.GetOnlyInt;
+import CreationValidator.GetOnlyInt;
 import MiddleLayer.SendQueryML;
 import MiddleLayer.TimeTableML;
 

@@ -1,7 +1,7 @@
 package UiLayer.AdminDashboard;
 
 import MiddleLayer.EditStudentDetailsMl;
-import MiddleLayer.GetOnlyInt;
+import CreationValidator.GetOnlyInt;
 import CreationValidator.AddStuEnterDetails;
 
 import java.sql.ResultSet;
